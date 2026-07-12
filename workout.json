@@ -1,0 +1,128 @@
+{
+  "program": {
+    "name": "Weekly Workout",
+    "description": "7-day repeating weekly cycle. Mon=Push, Tue=Legs, Wed=Pull+Core, Thu=Push Prog, Fri=Legs Prog, Sat=Pull+Cardio, Sun=Rest."
+  },
+  "days": [
+    {
+      "day": 1, "weekday": "Monday", "title": "Push", "type": "push", "icon": "💪",
+      "warmup": [
+        { "name": "Arm Circles Forward",  "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10 },
+        { "name": "Arm Circles Backward", "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10, "note": "Reverse direction" },
+        { "name": "Scapular Push-ups",    "anim": "pushup",         "type": "reps",  "reps": 10,    "sets": 1, "rest": 20 },
+        { "name": "Incline Push-ups",     "anim": "decline-pushup", "type": "reps",  "reps": 10,    "sets": 1, "rest": 60 }
+      ],
+      "exercises": [
+        { "name": "Backpack Push-ups",  "anim": "pushup",         "type": "reps",  "sets": 5, "reps": 10, "rest": 120, "note": "8 kg backpack" },
+        { "name": "Pike Push-ups",      "anim": "pike-pushup",    "type": "reps",  "sets": 4, "reps": 10, "rest": 90  },
+        { "name": "Diamond Push-ups",   "anim": "diamond-pushup", "type": "reps",  "sets": 3, "reps": 10, "rest": 90  },
+        { "name": "Plank",              "anim": "plank",          "type": "timer", "sets": 3, "duration": 60, "rest": 60 }
+      ],
+      "cooldown": [
+        { "name": "Chest Stretch",    "anim": "chest-stretch",    "type": "timer", "duration": 30, "sets": 1, "rest": 0 },
+        { "name": "Shoulder Stretch", "anim": "shoulder-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0 },
+        { "name": "Child's Pose",     "anim": "childs-pose",      "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
+      ]
+    },
+    {
+      "day": 2, "weekday": "Tuesday", "title": "Legs", "type": "legs", "icon": "🦵",
+      "warmup": [
+        { "name": "Bodyweight Squats",         "anim": "squat",     "type": "reps",  "reps": 15, "sets": 1, "rest": 20 },
+        { "name": "Leg Swings Forward / Back", "anim": "leg-swing", "type": "reps",  "reps": 10, "sets": 1, "rest": 20, "note": "Each leg" },
+        { "name": "Leg Swings Side-to-Side",   "anim": "leg-swing", "type": "reps",  "reps": 10, "sets": 1, "rest": 60, "note": "Each leg" }
+      ],
+      "exercises": [
+        { "name": "Backpack Squats",        "anim": "squat",       "type": "reps", "sets": 5, "reps": 18, "rest": 120, "note": "8 kg backpack" },
+        { "name": "Bulgarian Split Squats", "anim": "split-squat", "type": "reps", "sets": 4, "reps": 10, "rest": 90,  "note": "Each leg" },
+        { "name": "Lunges",                 "anim": "lunge",       "type": "reps", "sets": 4, "reps": 12, "rest": 90,  "note": "Each leg" },
+        { "name": "Calf Raises",            "anim": "calf-raise",  "type": "reps", "sets": 5, "reps": 20, "rest": 45  }
+      ],
+      "cooldown": [
+        { "name": "Quad Stretch",      "anim": "quad-stretch",      "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each leg" },
+        { "name": "Hamstring Stretch", "anim": "hamstring-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each leg" },
+        { "name": "Calf Stretch",      "anim": "calf-raise",        "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each leg" }
+      ]
+    },
+    {
+      "day": 3, "weekday": "Wednesday", "title": "Pull + Core", "type": "pull", "icon": "🏋️",
+      "warmup": [
+        { "name": "Dead Hang",         "anim": "dead-hang", "type": "timer", "duration": 20, "sets": 1, "rest": 20 },
+        { "name": "Scapular Pull-ups", "anim": "pullup",    "type": "reps",  "reps": 10,    "sets": 1, "rest": 60 }
+      ],
+      "exercises": [
+        { "name": "Pull-ups",            "anim": "pullup",       "type": "reps",  "sets": 5, "reps": 0,  "rest": 120, "note": "Max reps each set" },
+        { "name": "Chin-ups",            "anim": "chinup",       "type": "reps",  "sets": 3, "reps": 0,  "rest": 120, "note": "Max reps each set" },
+        { "name": "Hanging Knee Raises", "anim": "hanging-knee", "type": "reps",  "sets": 4, "reps": 12, "rest": 60  },
+        { "name": "Superman Hold",       "anim": "superman",     "type": "timer", "sets": 3, "duration": 45, "rest": 45 }
+      ],
+      "cooldown": [
+        { "name": "Lat Stretch",  "anim": "lat-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each side" },
+        { "name": "Child's Pose", "anim": "childs-pose", "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
+      ]
+    },
+    {
+      "day": 4, "weekday": "Thursday", "title": "Push Progression", "type": "push", "icon": "🔥",
+      "warmup": [
+        { "name": "Arm Circles Forward",  "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10 },
+        { "name": "Arm Circles Backward", "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10, "note": "Reverse direction" },
+        { "name": "Scapular Push-ups",    "anim": "pushup",         "type": "reps",  "reps": 10,    "sets": 1, "rest": 20 },
+        { "name": "Incline Push-ups",     "anim": "decline-pushup", "type": "reps",  "reps": 10,    "sets": 1, "rest": 60 }
+      ],
+      "exercises": [
+        { "name": "Backpack Push-ups", "anim": "pushup",         "type": "reps",  "sets": 5, "reps": 12, "rest": 120, "note": "8 kg backpack" },
+        { "name": "Decline Push-ups",  "anim": "decline-pushup", "type": "reps",  "sets": 4, "reps": 10, "rest": 90  },
+        { "name": "Pike Push-ups",     "anim": "pike-pushup",    "type": "reps",  "sets": 4, "reps": 10, "rest": 90  },
+        { "name": "Plank",             "anim": "plank",          "type": "timer", "sets": 3, "duration": 60, "rest": 60 }
+      ],
+      "cooldown": [
+        { "name": "Chest Stretch",    "anim": "chest-stretch",    "type": "timer", "duration": 30, "sets": 1, "rest": 0 },
+        { "name": "Shoulder Stretch", "anim": "shoulder-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0 },
+        { "name": "Child's Pose",     "anim": "childs-pose",      "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
+      ]
+    },
+    {
+      "day": 5, "weekday": "Friday", "title": "Legs Progression", "type": "legs", "icon": "⚡",
+      "warmup": [
+        { "name": "Bodyweight Squats",         "anim": "squat",     "type": "reps", "reps": 15, "sets": 1, "rest": 20 },
+        { "name": "Leg Swings Forward / Back", "anim": "leg-swing", "type": "reps", "reps": 10, "sets": 1, "rest": 20, "note": "Each leg" },
+        { "name": "Leg Swings Side-to-Side",   "anim": "leg-swing", "type": "reps", "reps": 10, "sets": 1, "rest": 60, "note": "Each leg" }
+      ],
+      "exercises": [
+        { "name": "Backpack Squats",        "anim": "squat",       "type": "reps", "sets": 5, "reps": 20, "rest": 120, "note": "8 kg backpack" },
+        { "name": "Bulgarian Split Squats", "anim": "split-squat", "type": "reps", "sets": 4, "reps": 12, "rest": 90,  "note": "Each leg" },
+        { "name": "Lunges",                 "anim": "lunge",       "type": "reps", "sets": 4, "reps": 12, "rest": 90,  "note": "Each leg" },
+        { "name": "Calf Raises",            "anim": "calf-raise",  "type": "reps", "sets": 5, "reps": 25, "rest": 45  }
+      ],
+      "cooldown": [
+        { "name": "Quad Stretch",      "anim": "quad-stretch",      "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each leg" },
+        { "name": "Hamstring Stretch", "anim": "hamstring-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each leg" },
+        { "name": "Calf Stretch",      "anim": "calf-raise",        "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each leg" }
+      ]
+    },
+    {
+      "day": 6, "weekday": "Saturday", "title": "Pull + Cardio", "type": "pull", "icon": "🚴",
+      "warmup": [
+        { "name": "Dead Hang",         "anim": "dead-hang", "type": "timer", "duration": 20, "sets": 1, "rest": 20 },
+        { "name": "Scapular Pull-ups", "anim": "pullup",    "type": "reps",  "reps": 10,    "sets": 1, "rest": 60 }
+      ],
+      "exercises": [
+        { "name": "Pull-ups",            "anim": "pullup",       "type": "reps",  "sets": 6, "reps": 0,    "rest": 120, "note": "Max reps each set" },
+        { "name": "Chin-ups",            "anim": "chinup",       "type": "reps",  "sets": 4, "reps": 0,    "rest": 120, "note": "Max reps each set" },
+        { "name": "Hanging Knee Raises", "anim": "hanging-knee", "type": "reps",  "sets": 4, "reps": 15,   "rest": 60  },
+        { "name": "Cycling",             "anim": "cycling",      "type": "timer", "sets": 1, "duration": 1800, "rest": 0, "note": "30 minutes" }
+      ],
+      "cooldown": [
+        { "name": "Lat Stretch",  "anim": "lat-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "note": "Each side" },
+        { "name": "Child's Pose", "anim": "childs-pose", "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
+      ]
+    },
+    {
+      "day": 7, "weekday": "Sunday", "title": "Rest", "type": "rest", "icon": "😴",
+      "warmup": [],
+      "exercises": [
+        { "name": "Rest Day", "anim": "rest", "type": "timer", "sets": 1, "duration": 60, "rest": 0, "note": "Drink water · Sleep 7–9 hours" }
+      ],
+      "cooldown": []
+    }
+  ]
+}
