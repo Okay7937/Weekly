@@ -980,8 +980,31 @@ function initPWA() {
     document.getElementById('install-banner').classList.remove('visible');
     localStorage.setItem('pwa-dismissed','1');
   });
-  if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/Weekly/service-worker.js',{scope:'/Weekly/'}).catch(()=>{});
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/Weekly/service-worker.js', { scope: '/Weekly/' })
+      .catch(() => {});
+
+    // When the SW sends SW_UPDATED, the new version is fully active.
+    // Reload the page so the user gets fresh files immediately —
+    // no need to open a new tab or incognito.
+    navigator.serviceWorker.addEventListener('message', event => {
+      if (event.data?.type === 'SW_UPDATED') {
+        window.location.reload();
+      }
+    });
+
+    // Also handle the case where a new SW is waiting
+    // (covers browsers that don't support postMessage from SW)
+    navigator.serviceWorker.ready.then(reg => {
+      reg.addEventListener('updatefound', () => {
+        const newWorker = reg.installing;
+        newWorker.addEventListener('statechange', () => {
+          if (newWorker.state === 'activated') {
+            window.location.reload();
+          }
+        });
+      });
+    });
   }
 }
 
