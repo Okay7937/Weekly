@@ -1,11 +1,14 @@
 /* =============================================
-   Weekly Workout – Service Worker v3
-   Network-FIRST strategy: always fetches fresh
-   from server, falls back to cache when offline.
-   Bumping CACHE_NAME forces old SW to be replaced.
+   Weekly Workout – Service Worker v4
+   
+   HOW UPDATES WORK:
+   1. New SW installs → skipWaiting() activates it immediately
+   2. Old caches deleted
+   3. clients.claim() + postMessage tells the open page to reload
+   4. Network-first fetch: always fresh, cache = offline fallback only
    ============================================= */
 
-const CACHE_NAME = 'weekly-workout-v3';
+const CACHE_NAME = 'weekly-workout-v4';
 const BASE = '/Weekly';
 const ASSETS = [
   BASE + '/',
@@ -18,51 +21,53 @@ const ASSETS = [
   BASE + '/icons/icon-512.png'
 ];
 
-// Install: pre-cache all assets then activate immediately
+// INSTALL: cache assets, then skip waiting immediately
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))
   );
-  // Skip waiting so the new SW activates right away
-  // without needing the user to close all tabs
-  self.skipWaiting();
+  self.skipWaiting(); // don't wait for old tabs to close
 });
 
-// Activate: delete ALL old caches, then claim all clients immediately
+// ACTIVATE: wipe old caches, claim all open tabs,
+// then tell every open tab to reload so they get fresh content
 self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    ).then(() => self.clients.claim())
+    caches.keys()
+      .then(keys =>
+        Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
+      )
+      .then(() => self.clients.claim())
+      .then(() => {
+        // Notify all open tabs: "new version is ready, please reload"
+        return self.clients.matchAll({ type: 'window' }).then(clients => {
+          clients.forEach(client => client.postMessage({ type: 'SW_UPDATED' }));
+        });
+      })
   );
 });
 
-// Fetch: NETWORK-FIRST
-// Try the network. If it responds, update the cache and return fresh content.
-// If the network fails (offline), fall back to cache.
+// FETCH: network-first
+// Always try the network. Cache is only used when offline.
 self.addEventListener('fetch', event => {
-  // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
     fetch(event.request)
       .then(response => {
-        // Got a fresh response — update cache then return it
         if (response && response.status === 200 && response.type === 'basic') {
           const clone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
         }
         return response;
       })
-      .catch(() => {
-        // Network failed — serve from cache (offline support)
-        return caches.match(event.request).then(cached => {
+      .catch(() =>
+        caches.match(event.request).then(cached => {
           if (cached) return cached;
-          // Fallback for navigation requests
           if (event.request.mode === 'navigate') {
             return caches.match(BASE + '/index.html');
           }
-        });
-      })
+        })
+      )
   );
 });
