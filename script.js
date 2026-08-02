@@ -1,13 +1,3 @@
-/* =============================================
-   Weekly Workout – script.js
-   Weekly repeating program (Mon–Sun)
-   Auto-selects today's day. Tracks per-week history.
-   ============================================= */
-'use strict';
-
-/* ══════════════════════════════════════════
-   ANIMATION LIBRARY  (160×160 viewBox stickmen)
-══════════════════════════════════════════ */
 const ANIMS = {
   'pushup': () => `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
     <style>@keyframes pu-b{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}.pu-b{animation:pu-b 1.4s ease-in-out infinite;transform-origin:80px 100px;}</style>
@@ -263,8 +253,68 @@ const ANIMS = {
     <g class="ss-a"><line x1="80" y1="86" x2="108" y2="86" class="sk-skin sk-accent"/><line x1="80" y1="86" x2="55" y2="94" class="sk-skin sk-accent"/></g>
     <line x1="80" y1="110" x2="66" y2="138" class="sk-skin"/>
     <line x1="80" y1="110" x2="94" y2="138" class="sk-skin"/>
+  </svg>`,
+
+  /* ── BENT-OVER ROW ── */
+  'bent-row': () => `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+    <style>@keyframes br-a{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}.br-arms{animation:br-a 1.2s ease-in-out infinite;transform-origin:80px 100px;}</style>
+    <line x1="20" y1="140" x2="140" y2="140" class="sk-skin sk-ground"/>
+    <!-- torso hinged forward -->
+    <circle cx="110" cy="72" r="11" class="sk-skin"/>
+    <line x1="110" y1="83" x2="75" y2="105" class="sk-skin"/>
+    <!-- legs -->
+    <line x1="75" y1="105" x2="65" y2="138" class="sk-skin"/>
+    <line x1="75" y1="105" x2="88" y2="138" class="sk-skin"/>
+    <!-- arms pulling up -->
+    <g class="br-arms">
+      <line x1="75" y1="105" x2="55" y2="120" class="sk-skin sk-accent"/>
+      <line x1="75" y1="105" x2="95" y2="120" class="sk-skin sk-accent"/>
+      <!-- backpack/weight -->
+      <rect x="58" y="120" width="26" height="14" rx="4" fill="rgba(108,99,255,0.35)" stroke="#a78bfa" stroke-width="1.5"/>
+    </g>
+  </svg>`,
+
+  /* ── ONE-ARM ROW ── */
+  'one-arm-row': () => `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+    <style>@keyframes oar-a{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}.oar-arm{animation:oar-a 1.2s ease-in-out infinite;transform-origin:78px 100px;}</style>
+    <line x1="20" y1="140" x2="140" y2="140" class="sk-skin sk-ground"/>
+    <!-- bench -->
+    <rect x="90" y="108" width="45" height="10" rx="4" fill="rgba(108,99,255,0.2)" stroke="rgba(108,99,255,0.4)" stroke-width="1.5"/>
+    <!-- body hinged, one hand on bench -->
+    <circle cx="105" cy="72" r="11" class="sk-skin"/>
+    <line x1="105" y1="83" x2="78" y2="105" class="sk-skin"/>
+    <line x1="78" y1="105" x2="68" y2="138" class="sk-skin"/>
+    <line x1="78" y1="105" x2="90" y2="138" class="sk-skin"/>
+    <!-- support arm on bench -->
+    <line x1="90" y1="95" x2="110" y2="108" class="sk-skin" style="opacity:.5"/>
+    <!-- pulling arm -->
+    <g class="oar-arm">
+      <line x1="78" y1="100" x2="55" y2="118" class="sk-skin sk-accent"/>
+      <rect x="42" y="116" width="18" height="10" rx="3" fill="rgba(108,99,255,0.35)" stroke="#a78bfa" stroke-width="1.5"/>
+    </g>
+  </svg>`,
+
+  /* ── BICEP CURL ── */
+  'bicep-curl': () => `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+    <style>@keyframes bc-l{0%,100%{transform:rotate(0deg)}50%{transform:rotate(-80deg)}}@keyframes bc-r{0%,100%{transform:rotate(0deg)}50%{transform:rotate(80deg)}}.bc-la{animation:bc-l 1.2s ease-in-out infinite;transform-origin:65px 96px;}.bc-ra{animation:bc-r 1.2s ease-in-out infinite;transform-origin:95px 96px;}</style>
+    <line x1="20" y1="140" x2="140" y2="140" class="sk-skin sk-ground"/>
+    <circle cx="80" cy="58" r="11" class="sk-skin"/>
+    <line x1="80" y1="69" x2="80" y2="110" class="sk-skin"/>
+    <line x1="80" y1="110" x2="66" y2="138" class="sk-skin"/>
+    <line x1="80" y1="110" x2="94" y2="138" class="sk-skin"/>
+    <!-- left arm curling -->
+    <g class="bc-la">
+      <line x1="65" y1="96" x2="50" y2="120" class="sk-skin sk-accent"/>
+      <rect x="40" y="118" width="14" height="8" rx="3" fill="rgba(108,99,255,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+    </g>
+    <!-- right arm curling (offset) -->
+    <g class="bc-ra">
+      <line x1="95" y1="96" x2="110" y2="120" class="sk-skin sk-accent"/>
+      <rect x="106" y="118" width="14" height="8" rx="3" fill="rgba(108,99,255,0.4)" stroke="#6c63ff" stroke-width="1.5"/>
+    </g>
   </svg>`
 };
+
 function getAnim(key) {
   if (ANIMS[key]) return ANIMS[key]();
   return `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
