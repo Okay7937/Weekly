@@ -9,103 +9,23 @@
       "weekday": "Monday",
       "title": "Push",
       "type": "push",
-      "icon": "\ud83d\udcaa",
+      "icon": "💪",
       "warmup": [
-        {
-          "name": "Arm Circles Forward",
-          "anim": "arm-circles",
-          "type": "timer",
-          "duration": 20,
-          "sets": 1,
-          "rest": 10
-        },
-        {
-          "name": "Arm Circles Backward",
-          "anim": "arm-circles",
-          "type": "timer",
-          "duration": 20,
-          "sets": 1,
-          "rest": 10,
-          "note": "Reverse direction"
-        },
-        {
-          "name": "Scapular Push-ups",
-          "anim": "pushup",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 20
-        },
-        {
-          "name": "Incline Push-ups",
-          "anim": "decline-pushup",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 60
-        }
+        { "name": "Arm Circles Forward",  "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10 },
+        { "name": "Arm Circles Backward", "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10, "note": "Reverse direction" },
+        { "name": "Scapular Push-ups",    "anim": "pushup",         "type": "reps",  "reps": 10, "sets": 1, "rest": 20 },
+        { "name": "Incline Push-ups",     "anim": "decline-pushup", "type": "reps",  "reps": 10, "sets": 1, "rest": 60 }
       ],
       "exercises": [
-        {
-          "name": "Backpack Push-ups",
-          "anim": "pushup",
-          "type": "reps",
-          "sets": 5,
-          "reps": 13,
-          "rest": 120,
-          "note": "8 kg backpack"
-        },
-        {
-          "name": "Pike Push-ups",
-          "anim": "pike-pushup",
-          "type": "reps",
-          "sets": 4,
-          "reps": 10,
-          "rest": 90
-        },
-        {
-          "name": "Diamond Push-ups",
-          "anim": "diamond-pushup",
-          "type": "reps",
-          "sets": 3,
-          "reps": 10,
-          "rest": 90
-        },
-        {
-          "name": "Plank",
-          "anim": "plank",
-          "type": "timer",
-          "sets": 3,
-          "duration": 80,
-          "rest": 60
-        }
+        { "name": "Backpack Push-ups",  "anim": "pushup",         "type": "reps",  "sets": 5, "reps": 8,  "rest": 120, "note": "10.5 kg backpack" },
+        { "name": "Pike Push-ups",      "anim": "pike-pushup",    "type": "reps",  "sets": 4, "reps": 12, "rest": 90  },
+        { "name": "Diamond Push-ups",   "anim": "diamond-pushup", "type": "reps",  "sets": 3, "reps": 12, "rest": 90  },
+        { "name": "Plank",              "anim": "plank",          "type": "timer", "sets": 3, "duration": 90, "rest": 60 }
       ],
       "cooldown": [
-        {
-          "name": "Chest Stretch",
-          "anim": "chest-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0
-        },
-        {
-          "name": "Shoulder Stretch",
-          "anim": "shoulder-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Child's Pose",
-          "anim": "childs-pose",
-          "type": "timer",
-          "duration": 60,
-          "sets": 1,
-          "rest": 0
-        }
+        { "name": "Chest Stretch",    "anim": "chest-stretch",    "type": "timer", "duration": 30, "sets": 1, "rest": 0 },
+        { "name": "Shoulder Stretch", "anim": "shoulder-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Child's Pose",     "anim": "childs-pose",      "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
       ]
     },
     {
@@ -113,100 +33,22 @@
       "weekday": "Tuesday",
       "title": "Legs",
       "type": "legs",
-      "icon": "\ud83e\uddb5",
+      "icon": "🦵",
       "warmup": [
-        {
-          "name": "Bodyweight Squats",
-          "anim": "squat",
-          "type": "reps",
-          "reps": 15,
-          "sets": 1,
-          "rest": 20
-        },
-        {
-          "name": "Leg Swings Forward / Back",
-          "anim": "leg-swing",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 20,
-          "note": "Each leg"
-        },
-        {
-          "name": "Leg Swings Side-to-Side",
-          "anim": "leg-swing",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 60,
-          "note": "Each leg"
-        }
+        { "name": "Bodyweight Squats",         "anim": "squat",     "type": "reps", "reps": 15, "sets": 1, "rest": 20 },
+        { "name": "Leg Swings Forward / Back", "anim": "leg-swing", "type": "reps", "reps": 10, "sets": 1, "rest": 20, "note": "Each leg" },
+        { "name": "Leg Swings Side-to-Side",   "anim": "leg-swing", "type": "reps", "reps": 10, "sets": 1, "rest": 60, "note": "Each leg" }
       ],
       "exercises": [
-        {
-          "name": "Backpack Squats",
-          "anim": "squat",
-          "type": "reps",
-          "sets": 5,
-          "reps": 22,
-          "rest": 120,
-          "note": "8 kg backpack"
-        },
-        {
-          "name": "Bulgarian Split Squats",
-          "anim": "split-squat",
-          "type": "reps",
-          "sets": 4,
-          "reps": 14,
-          "rest": 90,
-          "note": "Each leg"
-        },
-        {
-          "name": "Lunges",
-          "anim": "lunge",
-          "type": "reps",
-          "sets": 4,
-          "reps": 16,
-          "rest": 90,
-          "note": "Each leg"
-        },
-        {
-          "name": "Calf Raises",
-          "anim": "calf-raise",
-          "type": "reps",
-          "sets": 5,
-          "reps": 24,
-          "rest": 45
-        }
+        { "name": "Backpack Squats",        "anim": "squat",       "type": "reps", "sets": 5, "reps": 12, "rest": 120, "note": "13 kg backpack" },
+        { "name": "Bulgarian Split Squats", "anim": "split-squat", "type": "reps", "sets": 4, "reps": 8,  "rest": 90,  "note": "10.5 kg · Each leg" },
+        { "name": "Lunges",                 "anim": "lunge",       "type": "reps", "sets": 4, "reps": 10, "rest": 90,  "note": "10.5 kg · Each leg" },
+        { "name": "Calf Raises",            "anim": "calf-raise",  "type": "reps", "sets": 5, "reps": 26, "rest": 45  }
       ],
       "cooldown": [
-        {
-          "name": "Quad Stretch",
-          "anim": "quad-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Hamstring Stretch",
-          "anim": "hamstring-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Calf Stretch",
-          "anim": "calf-raise",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        }
+        { "name": "Quad Stretch",      "anim": "quad-stretch",      "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Hamstring Stretch", "anim": "hamstring-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Calf Stretch",      "anim": "calf-raise",        "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true }
       ]
     },
     {
@@ -214,79 +56,22 @@
       "weekday": "Wednesday",
       "title": "Pull + Core",
       "type": "pull",
-      "icon": "\ud83c\udfcb\ufe0f",
+      "icon": "🏋️",
       "warmup": [
-        {
-          "name": "Dead Hang",
-          "anim": "dead-hang",
-          "type": "timer",
-          "duration": 20,
-          "sets": 1,
-          "rest": 20
-        },
-        {
-          "name": "Scapular Pull-ups",
-          "anim": "pullup",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 60
-        }
+        { "name": "Dead Hang",         "anim": "dead-hang", "type": "timer", "duration": 20, "sets": 1, "rest": 20 },
+        { "name": "Scapular Pull-ups", "anim": "pullup",    "type": "reps",  "reps": 10,    "sets": 1, "rest": 60 }
       ],
       "exercises": [
-        {
-          "name": "Pull-ups",
-          "anim": "pullup",
-          "type": "reps",
-          "sets": 5,
-          "reps": 0,
-          "rest": 120,
-          "note": "Max reps \u00b7 negatives as backup"
-        },
-        {
-          "name": "Chin-ups",
-          "anim": "chinup",
-          "type": "reps",
-          "sets": 3,
-          "reps": 0,
-          "rest": 120,
-          "note": "Max reps \u00b7 negatives as backup"
-        },
-        {
-          "name": "Hanging Knee Raises",
-          "anim": "hanging-knee",
-          "type": "reps",
-          "sets": 4,
-          "reps": 14,
-          "rest": 60
-        },
-        {
-          "name": "Superman Hold",
-          "anim": "superman",
-          "type": "timer",
-          "sets": 3,
-          "duration": 45,
-          "rest": 45
-        }
+        { "name": "Dead Hangs",                "anim": "dead-hang",    "type": "timer", "sets": 3, "duration": 0,  "rest": 120, "note": "Max hold · Timer starts when you drop" },
+        { "name": "Backpack Bent-Over Rows",   "anim": "bent-row",     "type": "reps",  "sets": 4, "reps": 12,    "rest": 120, "note": "20 kg backpack" },
+        { "name": "One-Arm Backpack Rows",     "anim": "one-arm-row",  "type": "reps",  "sets": 3, "reps": 12,    "rest": 90,  "note": "15 kg · Each arm" },
+        { "name": "Backpack Biceps Curls",     "anim": "bicep-curl",   "type": "reps",  "sets": 2, "reps": 15,    "rest": 60,  "note": "10 kg backpack" },
+        { "name": "Lying Leg Raises",          "anim": "leg-raise",    "type": "reps",  "sets": 4, "reps": 14,    "rest": 60  },
+        { "name": "Superman Hold",             "anim": "superman",     "type": "timer", "sets": 3, "duration": 45, "rest": 45 }
       ],
       "cooldown": [
-        {
-          "name": "Lat Stretch",
-          "anim": "lat-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Child's Pose",
-          "anim": "childs-pose",
-          "type": "timer",
-          "duration": 60,
-          "sets": 1,
-          "rest": 0
-        }
+        { "name": "Lat Stretch",  "anim": "lat-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Child's Pose", "anim": "childs-pose", "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
       ]
     },
     {
@@ -294,103 +79,23 @@
       "weekday": "Thursday",
       "title": "Push Progression",
       "type": "push",
-      "icon": "\ud83d\udd25",
+      "icon": "🔥",
       "warmup": [
-        {
-          "name": "Arm Circles Forward",
-          "anim": "arm-circles",
-          "type": "timer",
-          "duration": 20,
-          "sets": 1,
-          "rest": 10
-        },
-        {
-          "name": "Arm Circles Backward",
-          "anim": "arm-circles",
-          "type": "timer",
-          "duration": 20,
-          "sets": 1,
-          "rest": 10,
-          "note": "Reverse direction"
-        },
-        {
-          "name": "Scapular Push-ups",
-          "anim": "pushup",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 20
-        },
-        {
-          "name": "Incline Push-ups",
-          "anim": "decline-pushup",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 60
-        }
+        { "name": "Arm Circles Forward",  "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10 },
+        { "name": "Arm Circles Backward", "anim": "arm-circles",    "type": "timer", "duration": 20, "sets": 1, "rest": 10, "note": "Reverse direction" },
+        { "name": "Scapular Push-ups",    "anim": "pushup",         "type": "reps",  "reps": 10, "sets": 1, "rest": 20 },
+        { "name": "Incline Push-ups",     "anim": "decline-pushup", "type": "reps",  "reps": 10, "sets": 1, "rest": 60 }
       ],
       "exercises": [
-        {
-          "name": "Backpack Push-ups",
-          "anim": "pushup",
-          "type": "reps",
-          "sets": 5,
-          "reps": 15,
-          "rest": 120,
-          "note": "8 kg backpack"
-        },
-        {
-          "name": "Decline Push-ups",
-          "anim": "decline-pushup",
-          "type": "reps",
-          "sets": 4,
-          "reps": 12,
-          "rest": 90
-        },
-        {
-          "name": "Pike Push-ups",
-          "anim": "pike-pushup",
-          "type": "reps",
-          "sets": 4,
-          "reps": 10,
-          "rest": 90
-        },
-        {
-          "name": "Plank",
-          "anim": "plank",
-          "type": "timer",
-          "sets": 3,
-          "duration": 80,
-          "rest": 60
-        }
+        { "name": "Backpack Push-ups", "anim": "pushup",         "type": "reps",  "sets": 5, "reps": 8,  "rest": 120, "note": "10.5 kg backpack" },
+        { "name": "Decline Push-ups",  "anim": "decline-pushup", "type": "reps",  "sets": 4, "reps": 14, "rest": 90  },
+        { "name": "Pike Push-ups",     "anim": "pike-pushup",    "type": "reps",  "sets": 4, "reps": 12, "rest": 90  },
+        { "name": "Plank",             "anim": "plank",          "type": "timer", "sets": 3, "duration": 90, "rest": 60 }
       ],
       "cooldown": [
-        {
-          "name": "Chest Stretch",
-          "anim": "chest-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0
-        },
-        {
-          "name": "Shoulder Stretch",
-          "anim": "shoulder-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Child's Pose",
-          "anim": "childs-pose",
-          "type": "timer",
-          "duration": 60,
-          "sets": 1,
-          "rest": 0
-        }
+        { "name": "Chest Stretch",    "anim": "chest-stretch",    "type": "timer", "duration": 30, "sets": 1, "rest": 0 },
+        { "name": "Shoulder Stretch", "anim": "shoulder-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Child's Pose",     "anim": "childs-pose",      "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
       ]
     },
     {
@@ -398,100 +103,22 @@
       "weekday": "Friday",
       "title": "Legs Progression",
       "type": "legs",
-      "icon": "\u26a1",
+      "icon": "⚡",
       "warmup": [
-        {
-          "name": "Bodyweight Squats",
-          "anim": "squat",
-          "type": "reps",
-          "reps": 15,
-          "sets": 1,
-          "rest": 20
-        },
-        {
-          "name": "Leg Swings Forward / Back",
-          "anim": "leg-swing",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 20,
-          "note": "Each leg"
-        },
-        {
-          "name": "Leg Swings Side-to-Side",
-          "anim": "leg-swing",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 60,
-          "note": "Each leg"
-        }
+        { "name": "Bodyweight Squats",         "anim": "squat",     "type": "reps", "reps": 15, "sets": 1, "rest": 20 },
+        { "name": "Leg Swings Forward / Back", "anim": "leg-swing", "type": "reps", "reps": 10, "sets": 1, "rest": 20, "note": "Each leg" },
+        { "name": "Leg Swings Side-to-Side",   "anim": "leg-swing", "type": "reps", "reps": 10, "sets": 1, "rest": 60, "note": "Each leg" }
       ],
       "exercises": [
-        {
-          "name": "Backpack Squats",
-          "anim": "squat",
-          "type": "reps",
-          "sets": 5,
-          "reps": 24,
-          "rest": 120,
-          "note": "8 kg backpack"
-        },
-        {
-          "name": "Bulgarian Split Squats",
-          "anim": "split-squat",
-          "type": "reps",
-          "sets": 4,
-          "reps": 15,
-          "rest": 90,
-          "note": "Each leg"
-        },
-        {
-          "name": "Lunges",
-          "anim": "lunge",
-          "type": "reps",
-          "sets": 4,
-          "reps": 15,
-          "rest": 90,
-          "note": "Each leg"
-        },
-        {
-          "name": "Calf Raises",
-          "anim": "calf-raise",
-          "type": "reps",
-          "sets": 5,
-          "reps": 29,
-          "rest": 45
-        }
+        { "name": "Backpack Squats",        "anim": "squat",       "type": "reps", "sets": 5, "reps": 12, "rest": 120, "note": "13 kg backpack" },
+        { "name": "Bulgarian Split Squats", "anim": "split-squat", "type": "reps", "sets": 4, "reps": 8,  "rest": 90,  "note": "10.5 kg · Each leg" },
+        { "name": "Lunges",                 "anim": "lunge",       "type": "reps", "sets": 4, "reps": 10, "rest": 90,  "note": "10.5 kg · Each leg" },
+        { "name": "Calf Raises",            "anim": "calf-raise",  "type": "reps", "sets": 5, "reps": 30, "rest": 45  }
       ],
       "cooldown": [
-        {
-          "name": "Quad Stretch",
-          "anim": "quad-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Hamstring Stretch",
-          "anim": "hamstring-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Calf Stretch",
-          "anim": "calf-raise",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        }
+        { "name": "Quad Stretch",      "anim": "quad-stretch",      "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Hamstring Stretch", "anim": "hamstring-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Calf Stretch",      "anim": "calf-raise",        "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true }
       ]
     },
     {
@@ -499,80 +126,21 @@
       "weekday": "Saturday",
       "title": "Pull + Cardio",
       "type": "pull",
-      "icon": "\ud83d\udeb4",
+      "icon": "🚴",
       "warmup": [
-        {
-          "name": "Dead Hang",
-          "anim": "dead-hang",
-          "type": "timer",
-          "duration": 20,
-          "sets": 1,
-          "rest": 20
-        },
-        {
-          "name": "Scapular Pull-ups",
-          "anim": "pullup",
-          "type": "reps",
-          "reps": 10,
-          "sets": 1,
-          "rest": 60
-        }
+        { "name": "Dead Hang",         "anim": "dead-hang", "type": "timer", "duration": 20, "sets": 1, "rest": 20 },
+        { "name": "Scapular Pull-ups", "anim": "pullup",    "type": "reps",  "reps": 10,    "sets": 1, "rest": 60 }
       ],
       "exercises": [
-        {
-          "name": "Pull-ups",
-          "anim": "pullup",
-          "type": "reps",
-          "sets": 6,
-          "reps": 0,
-          "rest": 120,
-          "note": "Max reps \u00b7 negatives as backup"
-        },
-        {
-          "name": "Chin-ups",
-          "anim": "chinup",
-          "type": "reps",
-          "sets": 4,
-          "reps": 0,
-          "rest": 120,
-          "note": "Max reps \u00b7 negatives as backup"
-        },
-        {
-          "name": "Hanging Knee Raises",
-          "anim": "hanging-knee",
-          "type": "reps",
-          "sets": 4,
-          "reps": 18,
-          "rest": 60
-        },
-        {
-          "name": "Cycling",
-          "anim": "cycling",
-          "type": "timer",
-          "sets": 1,
-          "duration": 2400,
-          "rest": 0,
-          "note": "40 minutes"
-        }
+        { "name": "Backpack Bent-Over Rows", "anim": "bent-row",    "type": "reps",  "sets": 6, "reps": 15, "rest": 120, "note": "20 kg backpack" },
+        { "name": "One-Arm Backpack Rows",   "anim": "one-arm-row", "type": "reps",  "sets": 4, "reps": 12, "rest": 90,  "note": "15 kg · Each arm" },
+        { "name": "Backpack Biceps Curls",   "anim": "bicep-curl",  "type": "reps",  "sets": 4, "reps": 15, "rest": 60,  "note": "10 kg backpack" },
+        { "name": "Lying Leg Raises",        "anim": "leg-raise",   "type": "reps",  "sets": 4, "reps": 18, "rest": 60  },
+        { "name": "Cycling",                 "anim": "cycling",     "type": "timer", "sets": 1, "duration": 2700, "rest": 0, "note": "45 minutes" }
       ],
       "cooldown": [
-        {
-          "name": "Lat Stretch",
-          "anim": "lat-stretch",
-          "type": "timer",
-          "duration": 30,
-          "sets": 1,
-          "rest": 0,
-          "sides": true
-        },
-        {
-          "name": "Child's Pose",
-          "anim": "childs-pose",
-          "type": "timer",
-          "duration": 60,
-          "sets": 1,
-          "rest": 0
-        }
+        { "name": "Lat Stretch",  "anim": "lat-stretch", "type": "timer", "duration": 30, "sets": 1, "rest": 0, "sides": true },
+        { "name": "Child's Pose", "anim": "childs-pose", "type": "timer", "duration": 60, "sets": 1, "rest": 0 }
       ]
     },
     {
@@ -580,18 +148,10 @@
       "weekday": "Sunday",
       "title": "Rest",
       "type": "rest",
-      "icon": "\ud83d\ude34",
+      "icon": "😴",
       "warmup": [],
       "exercises": [
-        {
-          "name": "Rest Day",
-          "anim": "rest",
-          "type": "timer",
-          "sets": 1,
-          "duration": 60,
-          "rest": 0,
-          "note": "Drink water \u00b7 Sleep 7\u20139 hours"
-        }
+        { "name": "Rest Day", "anim": "rest", "type": "timer", "sets": 1, "duration": 60, "rest": 0, "note": "Drink water · Sleep 7–9 hours" }
       ],
       "cooldown": []
     }
