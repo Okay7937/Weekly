@@ -51,7 +51,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 10,
+          "reps": 12,
           "rest": 120,
           "note": "10.5 kg backpack"
         },
@@ -68,7 +68,7 @@
           "anim": "diamond-pushup",
           "type": "reps",
           "sets": 3,
-          "reps": 14,
+          "reps": 16,
           "rest": 90
         },
         {
@@ -76,7 +76,7 @@
           "anim": "plank",
           "type": "timer",
           "sets": 3,
-          "duration": 100,
+          "duration": 110,
           "rest": 60
         }
       ],
@@ -148,7 +148,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 16,
           "rest": 120,
           "note": "13 kg backpack"
         },
@@ -157,7 +157,7 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 10,
+          "reps": 12,
           "rest": 90,
           "note": "10.5 kg · Each leg"
         },
@@ -166,7 +166,7 @@
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 13,
           "rest": 90,
           "note": "10.5 kg · Each leg"
         },
@@ -175,7 +175,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 15,
+          "reps": 17,
           "rest": 45,
           "note": "2 kg"
         }
@@ -236,44 +236,26 @@
       ],
       "exercises": [
         {
-          "name": "Dead Hangs",
-          "anim": "dead-hang",
-          "type": "timer",
-          "sets": 3,
-          "duration": 0,
-          "rest": 120,
-          "note": "Max hold · Timer starts when you drop"
-        },
-        {
-          "name": "Backpack Bent-Over Rows",
-          "anim": "bent-row",
+          "name": "Pull-ups",
+          "anim": "pullup",
           "type": "reps",
-          "sets": 4,
-          "reps": 14,
+          "sets": 5,
+          "reps": 0,
           "rest": 120,
-          "note": "20 kg backpack"
+          "note": "Max reps · negatives as backup"
         },
         {
-          "name": "One-Arm Backpack Rows",
-          "anim": "one-arm-row",
+          "name": "Chin-ups",
+          "anim": "chinup",
           "type": "reps",
           "sets": 3,
-          "reps": 14,
-          "rest": 90,
-          "note": "15 kg · Each arm"
+          "reps": 0,
+          "rest": 120,
+          "note": "Max reps · negatives as backup"
         },
         {
-          "name": "Backpack Biceps Curls",
-          "anim": "bicep-curl",
-          "type": "reps",
-          "sets": 2,
-          "reps": 17,
-          "rest": 60,
-          "note": "10 kg backpack"
-        },
-        {
-          "name": "Lying Leg Raises",
-          "anim": "leg-raise",
+          "name": "Hanging Knee Raises",
+          "anim": "hanging-knee",
           "type": "reps",
           "sets": 4,
           "reps": 16,
@@ -355,7 +337,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 10,
+          "reps": 12,
           "rest": 120,
           "note": "10.5 kg backpack"
         },
@@ -364,7 +346,7 @@
           "anim": "decline-pushup",
           "type": "reps",
           "sets": 4,
-          "reps": 16,
+          "reps": 18,
           "rest": 90
         },
         {
@@ -380,7 +362,7 @@
           "anim": "plank",
           "type": "timer",
           "sets": 3,
-          "duration": 100,
+          "duration": 110,
           "rest": 60
         }
       ],
@@ -452,7 +434,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 16,
           "rest": 120,
           "note": "13 kg backpack"
         },
@@ -461,7 +443,7 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 10,
+          "reps": 12,
           "rest": 90,
           "note": "10.5 kg · Each leg"
         },
@@ -470,7 +452,7 @@
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 13,
           "rest": 90,
           "note": "10.5 kg · Each leg"
         },
@@ -479,7 +461,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 15,
+          "reps": 17,
           "rest": 45,
           "note": "2 kg"
         }
@@ -540,35 +522,26 @@
       ],
       "exercises": [
         {
-          "name": "Backpack Bent-Over Rows",
-          "anim": "bent-row",
+          "name": "Pull-ups",
+          "anim": "pullup",
           "type": "reps",
           "sets": 6,
-          "reps": 17,
+          "reps": 0,
           "rest": 120,
-          "note": "20 kg backpack"
+          "note": "Max reps · negatives as backup"
         },
         {
-          "name": "One-Arm Backpack Rows",
-          "anim": "one-arm-row",
+          "name": "Chin-ups",
+          "anim": "chinup",
           "type": "reps",
           "sets": 4,
-          "reps": 14,
-          "rest": 90,
-          "note": "15 kg · Each arm"
+          "reps": 0,
+          "rest": 120,
+          "note": "Max reps · negatives as backup"
         },
         {
-          "name": "Backpack Biceps Curls",
-          "anim": "bicep-curl",
-          "type": "reps",
-          "sets": 4,
-          "reps": 17,
-          "rest": 60,
-          "note": "10 kg backpack"
-        },
-        {
-          "name": "Lying Leg Raises",
-          "anim": "leg-raise",
+          "name": "Hanging Knee Raises",
+          "anim": "hanging-knee",
           "type": "reps",
           "sets": 4,
           "reps": 20,
