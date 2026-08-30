@@ -51,7 +51,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 15,
           "rest": 120,
           "note": "10.5 kg backpack"
         },
@@ -148,16 +148,16 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 17,
+          "reps": 12,
           "rest": 120,
-          "note": "13 kg backpack"
+          "note": "17 kg backpack"
         },
         {
           "name": "Bulgarian Split Squats",
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 8,
+          "reps": 10,
           "rest": 90,
           "note": "12 kg · Each leg"
         },
@@ -166,7 +166,7 @@
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 10,
+          "reps": 12,
           "rest": 90,
           "note": "12 kg · Each leg"
         },
@@ -175,7 +175,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 19,
+          "reps": 21,
           "rest": 45,
           "note": "2 kg"
         }
@@ -249,7 +249,7 @@
           "anim": "bent-row",
           "type": "reps",
           "sets": 4,
-          "reps": 18,
+          "reps": 20,
           "rest": 120,
           "note": "20 kg backpack"
         },
@@ -258,7 +258,7 @@
           "anim": "one-arm-row",
           "type": "reps",
           "sets": 3,
-          "reps": 18,
+          "reps": 20,
           "rest": 90,
           "note": "15 kg · Each arm"
         },
@@ -267,7 +267,7 @@
           "anim": "bicep-curl",
           "type": "reps",
           "sets": 2,
-          "reps": 21,
+          "reps": 23,
           "rest": 60,
           "note": "10 kg backpack"
         },
@@ -276,7 +276,7 @@
           "anim": "leg-raise",
           "type": "reps",
           "sets": 4,
-          "reps": 20,
+          "reps": 22,
           "rest": 60
         },
         {
@@ -355,7 +355,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 15,
           "rest": 120,
           "note": "10.5 kg backpack"
         },
@@ -364,7 +364,7 @@
           "anim": "decline-pushup",
           "type": "reps",
           "sets": 4,
-          "reps": 10,
+          "reps": 12,
           "rest": 90,
           "note": "1.5 kg"
         },
@@ -453,16 +453,16 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 17,
+          "reps": 12,
           "rest": 120,
-          "note": "13 kg backpack"
+          "note": "17 kg backpack"
         },
         {
           "name": "Bulgarian Split Squats",
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 8,
+          "reps": 10,
           "rest": 90,
           "note": "12 kg · Each leg"
         },
@@ -471,7 +471,7 @@
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 10,
+          "reps": 12,
           "rest": 90,
           "note": "12 kg · Each leg"
         },
@@ -480,7 +480,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 19,
+          "reps": 21,
           "rest": 45,
           "note": "2 kg"
         }
@@ -545,7 +545,7 @@
           "anim": "bent-row",
           "type": "reps",
           "sets": 6,
-          "reps": 21,
+          "reps": 23,
           "rest": 120,
           "note": "20 kg backpack"
         },
@@ -554,7 +554,7 @@
           "anim": "one-arm-row",
           "type": "reps",
           "sets": 4,
-          "reps": 18,
+          "reps": 20,
           "rest": 90,
           "note": "15 kg · Each arm"
         },
@@ -563,7 +563,7 @@
           "anim": "bicep-curl",
           "type": "reps",
           "sets": 4,
-          "reps": 21,
+          "reps": 23,
           "rest": 60,
           "note": "10 kg backpack"
         },
@@ -572,7 +572,7 @@
           "anim": "leg-raise",
           "type": "reps",
           "sets": 4,
-          "reps": 24,
+          "reps": 26,
           "rest": 60
         },
         {
@@ -580,9 +580,9 @@
           "anim": "cycling",
           "type": "timer",
           "sets": 1,
-          "duration": 2700,
+          "duration": 2400,
           "rest": 0,
-          "note": "45 minutes"
+          "note": "40 minutes"
         }
       ],
       "cooldown": [
