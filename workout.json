@@ -51,7 +51,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 8,
+          "reps": 9,
           "rest": 120,
           "note": "12 kg backpack"
         },
@@ -68,7 +68,7 @@
           "anim": "diamond-pushup",
           "type": "reps",
           "sets": 3,
-          "reps": 16,
+          "reps": 18,
           "rest": 90
         },
         {
@@ -148,7 +148,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 16,
           "rest": 120,
           "note": "17 kg backpack"
         },
@@ -157,25 +157,25 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 8,
           "rest": 90,
-          "note": "12 kg · Each leg"
+          "note": "13.5 kg · Each leg"
         },
         {
           "name": "Lunges",
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 13,
+          "reps": 10,
           "rest": 90,
-          "note": "12 kg · Each leg"
+          "note": "13.5 kg · Each leg"
         },
         {
           "name": "Calf Raises",
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 23,
+          "reps": 25,
           "rest": 45,
           "note": "2 kg"
         }
@@ -249,7 +249,7 @@
           "anim": "bent-row",
           "type": "reps",
           "sets": 4,
-          "reps": 22,
+          "reps": 23,
           "rest": 120,
           "note": "20 kg backpack"
         },
@@ -258,7 +258,7 @@
           "anim": "one-arm-row",
           "type": "reps",
           "sets": 3,
-          "reps": 22,
+          "reps": 20,
           "rest": 90,
           "note": "15 kg · Each arm"
         },
@@ -276,7 +276,7 @@
           "anim": "leg-raise",
           "type": "reps",
           "sets": 4,
-          "reps": 24,
+          "reps": 26,
           "rest": 60
         },
         {
@@ -355,7 +355,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 8,
+          "reps": 9,
           "rest": 120,
           "note": "12 kg backpack"
         },
@@ -364,7 +364,7 @@
           "anim": "decline-pushup",
           "type": "reps",
           "sets": 4,
-          "reps": 14,
+          "reps": 16,
           "rest": 90,
           "note": "1.5 kg"
         },
@@ -453,7 +453,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 16,
           "rest": 120,
           "note": "17 kg backpack"
         },
@@ -462,25 +462,25 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 8,
           "rest": 90,
-          "note": "12 kg · Each leg"
+          "note": "13.5 kg · Each leg"
         },
         {
           "name": "Lunges",
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 13,
+          "reps": 10,
           "rest": 90,
-          "note": "12 kg · Each leg"
+          "note": "13.5 kg · Each leg"
         },
         {
           "name": "Calf Raises",
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 23,
+          "reps": 25,
           "rest": 45,
           "note": "2 kg"
         }
@@ -545,7 +545,7 @@
           "anim": "bent-row",
           "type": "reps",
           "sets": 6,
-          "reps": 23,
+          "reps": 24,
           "rest": 120,
           "note": "20 kg backpack"
         },
@@ -572,7 +572,7 @@
           "anim": "leg-raise",
           "type": "reps",
           "sets": 4,
-          "reps": 28,
+          "reps": 30,
           "rest": 60
         },
         {
@@ -580,9 +580,9 @@
           "anim": "cycling",
           "type": "timer",
           "sets": 1,
-          "duration": 2400,
+          "duration": 2700,
           "rest": 0,
-          "note": "40 minutes"
+          "note": "45 minutes"
         }
       ],
       "cooldown": [
