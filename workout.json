@@ -51,7 +51,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 13,
+          "reps": 15,
           "rest": 120,
           "note": "12 kg backpack"
         },
@@ -68,7 +68,7 @@
           "anim": "diamond-pushup",
           "type": "reps",
           "sets": 3,
-          "reps": 18,
+          "reps": 19,
           "rest": 90
         },
         {
@@ -76,8 +76,9 @@
           "anim": "plank",
           "type": "timer",
           "sets": 3,
-          "duration": 120,
-          "rest": 60
+          "duration": 80,
+          "rest": 60,
+          "note": "2 kg"
         }
       ],
       "cooldown": [
@@ -148,7 +149,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 12,
+          "reps": 14,
           "rest": 120,
           "note": "21 kg backpack"
         },
@@ -157,16 +158,16 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 8,
           "rest": 90,
-          "note": "13.5 kg · Each leg"
+          "note": "15 kg · Each leg"
         },
         {
           "name": "Lunges",
           "anim": "lunge",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 13,
           "rest": 90,
           "note": "13.5 kg · Each leg"
         },
@@ -175,7 +176,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 29,
+          "reps": 30,
           "rest": 45,
           "note": "2 kg"
         }
@@ -267,17 +268,18 @@
           "anim": "bicep-curl",
           "type": "reps",
           "sets": 2,
-          "reps": 26,
+          "reps": 18,
           "rest": 60,
-          "note": "10 kg backpack"
+          "note": "11 kg backpack"
         },
         {
           "name": "Lying Leg Raises",
           "anim": "leg-raise",
           "type": "reps",
           "sets": 4,
-          "reps": 29,
-          "rest": 60
+          "reps": 15,
+          "rest": 60,
+          "note": "1 kg"
         },
         {
           "name": "Superman Hold",
@@ -355,7 +357,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 13,
+          "reps": 15,
           "rest": 120,
           "note": "12 kg backpack"
         },
@@ -364,7 +366,7 @@
           "anim": "decline-pushup",
           "type": "reps",
           "sets": 4,
-          "reps": 10,
+          "reps": 12,
           "rest": 90,
           "note": "3 kg"
         },
@@ -382,7 +384,8 @@
           "type": "timer",
           "sets": 3,
           "duration": 120,
-          "rest": 60
+          "rest": 60,
+          "note": "bodyweight"
         }
       ],
       "cooldown": [
@@ -453,7 +456,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 12,
+          "reps": 14,
           "rest": 120,
           "note": "21 kg backpack"
         },
@@ -462,9 +465,9 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 8,
           "rest": 90,
-          "note": "13.5 kg · Each leg"
+          "note": "15 kg · Each leg"
         },
         {
           "name": "Lunges",
@@ -563,7 +566,7 @@
           "anim": "bicep-curl",
           "type": "reps",
           "sets": 4,
-          "reps": 23,
+          "reps": 25,
           "rest": 60,
           "note": "10 kg backpack"
         },
@@ -580,9 +583,9 @@
           "anim": "cycling",
           "type": "timer",
           "sets": 1,
-          "duration": 2700,
+          "duration": 3000,
           "rest": 0,
-          "note": "45 minutes"
+          "note": "50 minutes"
         }
       ],
       "cooldown": [
