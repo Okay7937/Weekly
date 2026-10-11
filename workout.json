@@ -68,7 +68,7 @@
           "anim": "diamond-pushup",
           "type": "reps",
           "sets": 3,
-          "reps": 19,
+          "reps": 20,
           "rest": 90
         },
         {
@@ -149,7 +149,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 16,
           "rest": 120,
           "note": "21 kg backpack"
         },
@@ -158,7 +158,7 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 8,
+          "reps": 10,
           "rest": 90,
           "note": "15 kg · Each leg"
         },
@@ -176,9 +176,9 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 30,
+          "reps": 15,
           "rest": 45,
-          "note": "2 kg"
+          "note": "4 kg"
         }
       ],
       "cooldown": [
@@ -268,7 +268,7 @@
           "anim": "bicep-curl",
           "type": "reps",
           "sets": 2,
-          "reps": 18,
+          "reps": 20,
           "rest": 60,
           "note": "11 kg backpack"
         },
@@ -357,16 +357,16 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 15,
+          "reps": 8,
           "rest": 120,
-          "note": "12 kg backpack"
+          "note": "13.5 kg backpack"
         },
         {
           "name": "Decline Push-ups",
           "anim": "decline-pushup",
           "type": "reps",
           "sets": 4,
-          "reps": 12,
+          "reps": 14,
           "rest": 90,
           "note": "3 kg"
         },
@@ -456,7 +456,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 14,
+          "reps": 16,
           "rest": 120,
           "note": "21 kg backpack"
         },
@@ -465,7 +465,7 @@
           "anim": "split-squat",
           "type": "reps",
           "sets": 4,
-          "reps": 8,
+          "reps": 10,
           "rest": 90,
           "note": "15 kg · Each leg"
         },
@@ -483,7 +483,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 29,
+          "reps": 30,
           "rest": 45,
           "note": "2 kg"
         }
@@ -583,9 +583,9 @@
           "anim": "cycling",
           "type": "timer",
           "sets": 1,
-          "duration": 3000,
+          "duration": 3300,
           "rest": 0,
-          "note": "50 minutes"
+          "note": "55 minutes"
         }
       ],
       "cooldown": [
