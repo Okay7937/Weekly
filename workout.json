@@ -51,7 +51,7 @@
           "anim": "pushup",
           "type": "reps",
           "sets": 5,
-          "reps": 12,
+          "reps": 13,
           "rest": 120,
           "note": "13.5 kg backpack"
         },
@@ -149,7 +149,7 @@
           "anim": "squat",
           "type": "reps",
           "sets": 5,
-          "reps": 13,
+          "reps": 14,
           "rest": 120,
           "note": "25 kg backpack"
         },
@@ -176,7 +176,7 @@
           "anim": "calf-raise",
           "type": "reps",
           "sets": 5,
-          "reps": 21,
+          "reps": 23,
           "rest": 45,
           "note": "4 kg"
         }
